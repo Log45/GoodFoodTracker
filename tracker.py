@@ -292,4 +292,4 @@ while True:
         return render_template("macarollin.html", mac_map=map)
 
     if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(host='0.0.0.0', port=8080)
